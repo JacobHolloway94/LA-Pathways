@@ -1,0 +1,33 @@
+.input-feedback {
+  color: red;
+}
+
+.paddingTop {
+  padding-top: 20px;
+}
+
+.bold {
+  font-size: large;
+  font-weight: bold;
+}
+
+.ribbonExtras {
+  top: 30px !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.card-body .statusButton {
+  float: right;
+}
+
+.leftPadding {
+  padding-left: 15px;
+}
+
+.card-header .editButton button {
+  float: right !important;
+  margin-bottom: 20px;
+}
