@@ -181,11 +181,7 @@ export default class QuestionForm extends React.Component {
                         placeholder="Enter Question"
                         type="text"
                         autoComplete="off"
-                        className={
-                          errors.questionText && touched.questionText
-                            ? "form-control"
-                            : "form-control"
-                        }
+                        className="form-control"
                       />{" "}
                       {errors.questionText && touched.questionText && (
                         <span className="input-feedback">
@@ -202,11 +198,7 @@ export default class QuestionForm extends React.Component {
                         placeholder="Help Text"
                         type="text"
                         autoComplete="off"
-                        className={
-                          errors.helpText && touched.helpText
-                            ? "form-control"
-                            : "form-control"
-                        }
+                        className="form-control"
                       />{" "}
                       {errors.helpText && touched.helpText && (
                         <span className="input-feedback">
@@ -224,11 +216,7 @@ export default class QuestionForm extends React.Component {
                         as="select"
                         component="select"
                         autoComplete="off"
-                        className={
-                          errors.questionTypeId && touched.questionTypeId
-                            ? "form-control"
-                            : "form-control"
-                        }
+                        className="form-control"
                       >
                         {this.state.questionTypes.length > 0 ? (
                           this.state.questionTypes
@@ -251,11 +239,7 @@ export default class QuestionForm extends React.Component {
                         as="select"
                         component="select"
                         autoComplete="off"
-                        className={
-                          errors.sectionId && touched.sectionId
-                            ? "form-control"
-                            : "form-control"
-                        }
+                        className="form-control"
                       >
                         <option key="0" value="0">
                           Select Option
@@ -281,11 +265,7 @@ export default class QuestionForm extends React.Component {
                         component="select"
                         as="select"
                         autoComplete="off"
-                        className={
-                          errors.statusId && touched.statusId
-                            ? "form-control"
-                            : "form-control"
-                        }
+                        className="form-control"
                       >
                         <option key="0" value="0">
                           Select Option
@@ -311,11 +291,7 @@ export default class QuestionForm extends React.Component {
                         as="select"
                         component="select"
                         autoComplete="off"
-                        className={
-                          errors.sortOrder && touched.sortOrder
-                            ? "form-control"
-                            : "form-control"
-                        }
+                        className="form-control"
                       >
                         <option key="0" value="0">
                           Select Option
@@ -345,11 +321,7 @@ export default class QuestionForm extends React.Component {
                         id="isRequired"
                         component="select"
                         autoComplete="off"
-                        className={
-                          errors.isRequired && touched.isRequired
-                            ? "form-control"
-                            : "form-control"
-                        }
+                        className="form-control"
                       >
                         <option key="0" value="0">
                           Select Option
@@ -378,11 +350,7 @@ export default class QuestionForm extends React.Component {
                         component="select"
                         as="select"
                         autoComplete="off"
-                        className={
-                          errors.isMultipleAllowed && touched.isMultipleAllowed
-                            ? "form-control"
-                            : "form-control"
-                        }
+                        className="form-control"
                       >
                         <option key="0" value="0">
                           Select Option
